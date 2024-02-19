@@ -22,3 +22,25 @@ h1{
 #authors{
     color: aqua;
 }
+
+ul{
+    padding: 15px;
+}
+
+thead{
+    text-align: left;
+    color: white;
+    background-color: rgb(31, 146, 146);
+}
+
+tr th:nth-child(-n+2){
+    width: 25%;
+}
+
+.bg-acquamarina{
+    background-color: aquamarine;
+}
+
+.marked-content{
+    background-color: yellow;
+}
