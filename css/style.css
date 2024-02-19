@@ -20,7 +20,7 @@ h1{
 }
 
 #authors{
-    color: aqua;
+    color: rgb(31, 146, 146);
 }
 
 ul{
@@ -43,4 +43,24 @@ tr th:nth-child(-n+2){
 
 .marked-content{
     background-color: yellow;
+}
+
+#monitor{
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+    width: 300px;
+    height: 200px;
+    background-image: url(../img/monitor.jpg);
+}
+
+#graph{
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+    width: 300px;
+    height: 200px;
+    background-image: url(../img/graph.jpg);
 }
