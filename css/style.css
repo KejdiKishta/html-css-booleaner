@@ -1,13 +1,13 @@
 header{
-    height: 50px;
+    height: 100px;
     background-color: #4ea0ff;
     background-image: url(../img/pattern.png);
     background-size: contain;
 }
 
 #logo{
-    margin-top: 20px;
-    height: 30px;
+    margin-top: 50px;
+    height: 50px;
 }
 
 h1{
@@ -27,13 +27,17 @@ ul{
     padding: 15px;
 }
 
+table{
+    border-spacing: 0;
+}
+
 thead{
     text-align: left;
     color: white;
     background-color: rgb(31, 146, 146);
 }
 
-tr th:nth-child(-n+2){
+.table-row{
     width: 25%;
 }
 
